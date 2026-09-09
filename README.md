@@ -79,7 +79,7 @@ The dashboard includes the following visualizations:
 ### Sales & Category Performance
 
 - **Classic** category generated the highest share of sales at **26.91%**, with **14,888 pizzas sold**.
-- The **Classic category** contributed the highest sales and total pizza orders among the categories analyzed.
+- The **Classic category** contributed the highest sales and the highest number of pizzas sold among the categories analyzed.
 
 ### Pizza Size Performance
 
@@ -120,3 +120,32 @@ The formula used was:
 
 ```excel
 =1/COUNTIF(B:B,[@[order_id]])
+
+The formula assigns a fractional value to each repeated order ID so that the sum of `total_orders` represents the number of unique orders.
+For example, if an order appears 3 times, each row receives `1/3`. The three rows together therefore contribute **1 unique order**.
+
+---
+---
+
+## 📂 Project Structure
+
+```text
+Pizza-Sales-Analytics/
+│
+├── dataset/
+│   └── pizza_sales.csv
+│
+├── SQL_Queries/
+│   ├── 01_KPIs.sql
+│   ├── 02_ChartsReq.sql
+│   └── Pizza_Sales_SQL_Queries.docx
+│
+├── Excel/
+│   └── Pizza_Sales_Dashboard.xlsx
+│
+├── Documentation/
+│   └── requirements.md
+│
+├── dashboard.png
+│
+└── README.md
