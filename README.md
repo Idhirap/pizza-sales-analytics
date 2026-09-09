@@ -103,7 +103,7 @@ The dashboard includes the following visualizations:
 
 ## 🧹 Data Cleaning & Processing
 
-The dataset was prepared for analysis using Excel and SQL.
+The dataset was prepared for analysis using **SQL Server and Microsoft Excel**.
 
 Key data preparation steps included:
 
