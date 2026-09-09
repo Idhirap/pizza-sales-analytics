@@ -31,6 +31,12 @@ The analysis was performed using **SQL Server for data analysis** and **Microsof
 
 ---
 
+## 📊 Dashboard Preview
+
+![Pizza Sales Dashboard](dashboard.png)
+
+---
+
 ### Analytics Workflow
 
 **CSV Dataset → SQL Server → SQL Queries → Excel Connection → Data Cleaning & Processing → Pivot Tables → Dashboard → Business Insights**
