@@ -120,12 +120,13 @@ The formula used was:
 
 ```excel
 =1/COUNTIF(B:B,[@[order_id]])
+```
 
 The formula assigns a fractional value to each repeated order ID so that the sum of `total_orders` represents the number of unique orders.
 For example, if an order appears 3 times, each row receives `1/3`. The three rows together therefore contribute **1 unique order**.
 
 ---
----
+
 
 ## 📂 Project Structure
 
