@@ -1,6 +1,6 @@
 # 🍕 Pizza Sales Analytics
 
-An end-to-end data analytics portfolio project analyzing pizza sales data using **SQL Server and Microsoft Excel**.
+An end-to-end data analytics portfolio project analyzing **48,620 pizza sales transaction records** using **SQL Server and Microsoft Excel**.
 
 The project covers data import, SQL-based analysis, data cleaning, data processing, Excel-based analysis, and an interactive dashboard to identify sales trends and top-performing products.
 
@@ -70,3 +70,10 @@ Pizza-Sales-Analytics/
 │   └── requirements.md
 │
 └── README.md
+
+## 🧹 Data Cleaning & Processing
+
+- Standardized pizza size values for consistent analysis.
+- Created an `order_day` field to analyze orders by day of the week.
+- Created a `total_orders` calculation to accurately derive order-level metrics despite repeated order IDs.
+- Prepared the dataset for Pivot Table analysis and dashboard visualization.
